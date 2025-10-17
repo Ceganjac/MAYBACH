@@ -1,0 +1,515 @@
+    h2:hover{
+    color: gray;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+    line-height: 20px;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: gray;
+}
+
+
+/******************************************************************************************************/
+
+header{
+    background-image: url("../slike/pocetna/maybach_hed.jpg");
+    background-position: 0% 45% ;
+    height:220px;
+    margin: auto;
+
+}
+
+header ul{
+    list-style: none;
+    font-size: 25px;
+    font-style: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+
+}
+
+header h1{
+    color: white;
+    text-align: left;
+    font-size:50px;
+    padding-left: 40px;
+    
+    
+}
+/******************************************************************************************************/
+
+footer{
+    color: white;
+    background: url("../slike/početna/maybach_hed.jpg") 0% 85%  ;
+    text-align: justify;
+    height:100px;
+    font-size: 25px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+
+/******************************************************************************************************/
+/*  Prvi deo   */
+.deo1 {
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+#tekst1{
+
+    width:auto;
+    height:auto;
+    text-align: justify;
+    line-height: 20px;
+    font-size: 14pt;
+    line-height: 25px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+}
+
+#slika1{
+
+    margin-left: 30px;
+    width : 550px; 
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: bottom;
+}
+
+
+/******************************************************************************************************/
+/*   Drugi deo */
+.deo2{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction:row;
+}
+
+#tekst2{
+    width:auto;
+    height:auto;
+    text-align: justify;
+    line-height: 20px;
+    font-size: 14pt;
+    line-height: 25px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#slika2{
+
+    margin-right: 30px;
+    width : 550px; 
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: bottom;
+
+}
+
+/******************************************************************************************************/
+
+#modeli{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:20px ;
+    padding: 20px;
+    background-color: gainsboro;
+    font-size: 16pt;
+}
+
+#podaci{
+    display: flex;
+    flex-direction: column;
+}
+#podaci ul{
+    list-style: square;  
+
+}
+
+#tabela{
+    table-layout:unset;
+    font-size: 18pt;
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width:auto;
+}
+
+#tabela table{
+    padding: 3px;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+
+.kontejner{
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: center;
+}
+
+/**************************************************************************************************/
+/*TABLET*/
+/**************************************************************************************************/
+
+
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+
+    header{
+        background-image: url("../slike/početna/maybach_hed.jpg");
+        background-position: 60% 55% ;
+        height:220px;
+        margin: auto;
+    
+    }
+
+    header h1{
+        font-size: 25px;
+        flex-direction: column; 
+        justify-content: center;
+        text-align: center;
+    }
+    header ul{
+        list-style: none;
+        font-size: 20px;
+        font-style: bold;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .kontejner{
+        margin-left: 50px;
+        margin-right: 50px;
+        justify-content: center;
+        flex-direction: row;
+    }
+    /******************************************************************************************************/
+    
+    footer{
+        color: white;
+        background: url("../slike/početna/maybach_hed.jpg") 60% 80%  ;
+        text-align: justify;
+        height:80px;
+        font-size: 12pt;
+        margin: auto;
+        padding: 13px;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+    }
+    
+    
+    /******************************************************************************************************/
+    /*  Prvi deo   */
+    .deo1 {
+        margin: auto;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #tekst1{
+    
+        width:auto;
+        height:auto;
+        text-align: justify;
+        font-size: 14pt;
+        line-height: 25px;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    
+    #slika1{
+        margin-top: 30px;
+        margin-left: 10px;
+        width : 350px; 
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    
+    /******************************************************************************************************/
+    /*   Drugi deo */
+    .deo2{
+        margin: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction:column;
+    }
+    
+    #tekst2{
+        width:auto;
+        height:auto;
+        text-align: justify;
+        font-size: 14pt;
+        line-height: 25px;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    
+    #slika2{
+        margin-top: 30px;
+        margin-right: 10px;
+        width : 350px; 
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: bottom;
+        margin-bottom: 70px;
+    
+    }
+    
+    /******************************************************************************************************/
+    
+    #modeli{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin:15px ;
+        padding: 15px;
+        background-color: gainsboro;
+        font-size: 16px;
+    }
+    
+    #podaci{
+        display: flex;
+        flex-direction: column;
+    }
+    #podaci ul{
+        list-style: square;  
+    
+    }
+    
+    #tabela{
+        table-layout:unset;
+        font-size: 18px;
+        margin: 30px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        width:auto;
+    }
+    
+    #tabela table{
+        padding: 3px;
+        border-collapse: collapse;
+        text-align: center;
+        
+    }
+    
+    .kontejner{
+        margin-left: 100px;
+        margin-right: 100px;
+        justify-content: center;
+    }
+}
+
+/**************************************************************************************************/
+/*MOBILNI TELEFON */
+/**************************************************************************************************/
+
+@media screen and (max-width: 600px) {
+
+  
+
+    header{
+        background-image: url("../slike/početna/maybach_hed.jpg");
+        background-position: 60% 25% ;
+        height:220px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    header h1{
+        font-size: 18pt;
+        flex-direction: column; 
+        justify-content: center;
+        text-align: center;
+        min-width: 250px;
+    }
+    header ul{
+        list-style: none;
+        font-size: 10pt;
+        font-style: bold;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .kontejner{
+        margin-left: 20px;
+        margin-right: 20px;
+        justify-content: center;
+        flex-direction: row;
+    }
+    /******************************************************************************************************/
+    
+    footer{
+        color: white;
+        background: url("../slike/početna/maybach_hed.jpg") 60% 40%  ;
+        text-align: justify;
+        height:50px;
+        font-size: 12pt;
+        margin: auto;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+    }
+    
+    
+    /******************************************************************************************************/
+    /*  Prvi deo   */
+    .deo1 {
+        margin: auto;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    h2{
+        font-size: 14pt;
+    }
+    
+    #tekst1{
+    
+        width:auto;
+        height:auto;
+        text-align: justify;
+        line-height: normal;
+        font-size: 14pt;
+        line-height: 25px;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    
+    #slika1{
+        margin-top: 20px;
+        margin-left: 10px;
+        width : 250px; 
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    
+    /******************************************************************************************************/
+    /*   Drugi deo */
+    .deo2{
+        margin: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction:column;
+    }
+    
+    #tekst2{
+        width:auto;
+        height:auto;
+        text-align: justify;
+        line-height: normlal;
+        font-size: 14pt;
+        line-height: 25px;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    
+    #slika2{
+        margin-top: 30px;
+        margin-right: 10px;
+        width : 250px; 
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: bottom;
+        margin-bottom: 70px;
+    
+    }
+    
+    /******************************************************************************************************/
+    
+    #modeli{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin:12pt ;
+        padding: 10px;
+        background-color: gainsboro;
+        font-size: 12px;
+    }
+    
+    #podaci{
+        display: flex;
+        flex-direction: column;
+    }
+    #podaci ul{
+        list-style: square;  
+    
+    }
+    
+    #tabela{
+        table-layout:unset;
+        font-size: 10pt;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        width:auto;
+    }
+    
+    #tabela table{
+        padding: 2px;
+        border-collapse: collapse;
+        text-align: center;
+        
+    }
+    
+    .kontejner{
+        margin-left: 50px;
+        margin-right: 50px;
+        justify-content: center;
+    }
+}

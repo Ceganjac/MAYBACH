@@ -1,0 +1,229 @@
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+    line-height: 20px;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color:rgb(53, 45, 45);
+}
+
+body,html{
+   position: relative;
+   flex-direction: column;
+   background-image: url(../slike/login/prijava.png);
+   margin:none;
+
+}
+
+header{
+    background-color: grey;
+      height:220px;
+      margin-top: none;
+  }
+
+header ul{
+    list-style: none;
+    font-size: 25px;
+    font-style: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+
+}
+
+header h1{
+    color: white;
+    text-align: left;
+    font-size:50px;
+    padding-left: 40px
+}
+
+.kontejner{
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+
+
+#glavni{
+    color: white;
+    font-size: 45px;
+    text-indent: 70px;
+}
+
+form{
+    display: flex;
+    background-color: gray;
+    flex-direction: column;
+    width: 550px;
+    padding: 35px;
+    color: white;
+    margin-left: 200px;
+
+}
+
+.dugme{
+    border: 3px solid black;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.dugme1{
+    border: 3px solid black;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#dobrodosli{
+    font-size: 15pt;
+}
+
+/****************************************************************************************************/
+/*  TABLET   */
+/****************************************************************************************************/
+
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+    header h1{
+        font-size: 25px;
+        flex-direction: column; 
+        justify-content: center;
+        text-align: center;
+    }
+    header ul{
+        list-style: none;
+        font-size: 20px;
+        font-style: bold;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .kontejner{
+        margin-left: 50px;
+        margin-right: 50px;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    #glavni{
+        color: white;
+        font-size: 45px;
+        text-indent: 70px;
+    }
+    
+    form{
+        display: flex;
+        background-color: #8F8F8F;
+        flex-direction: column;
+        width: 350px;
+        padding: 27px;
+        color: white;
+        margin-left: 130px;
+    
+    }
+    
+    .dugme{
+        border: 3px solid black;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    .dugme1{
+        border: 3px solid black;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+    
+    #dobrodosli{
+        font-size: 15pt;
+    }
+}
+/****************************************************************************************************/
+/*MOBILNI TELEFON*/
+/****************************************************************************************************/
+
+
+@media screen and (max-width: 600px) {
+    header{
+        background-color: grey;
+          background-position: 0% 65% ;
+          height:220px;
+          margin: none;
+      }
+
+    header h1{
+        font-size: 17px;
+        flex-direction: column; 
+        justify-content: center;
+        text-align: center;
+    }
+    header ul{
+        list-style: none;
+        font-size: 13px;
+        font-style: bold;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .kontejner{
+        margin-left: 30px;
+        margin-right: 30px;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    #glavni{
+        color: white;
+        font-size: 45px;
+        text-indent: 30px;
+    }
+    
+    form{
+        display: flex;
+        background-color: #8F8F8F;
+        flex-direction: column;
+        width: 250px;
+        padding: 20px;
+        color: white;
+       margin: 0px 0px 0px 0px;
+       margin-left: 40px;
+       margin-right: 40px;
+       
+       
+
+        
+    }
+    
+    .dugme{
+        border: 2px solid black;
+        font-weight: bold;
+        letter-spacing: 0px;
+        margin-top: 15px;
+    }
+
+    .dugme1{
+        border: 3px solid black;
+        font-weight: bold;
+        letter-spacing: 0px;
+    }
+    
+    #dobrodosli{
+        font-size: 15px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+
+}
